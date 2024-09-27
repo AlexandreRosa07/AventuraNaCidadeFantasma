@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>Aventura na cidade fantasma</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Em um dia ensolarado, eu estava caminhando em uma trilha na Itália, quando eu estava nesta trilha, eu
+                atropeçei em uma
+                garrafa de vidro, neste objeto, existia um papel dentro, então quebrei a garrafa e tirei o papel da
+                garrafa, e encontrei um texto escrito em alguma língua desconhecida que não sabia. E o texto estava
+                escrito assim: "Civitas est in qua nemo vivit, res iustae, sed est thesaurus qui omnes responsa hominum
+                dare potest, at nemo ibi vivit.". Me ajudem a descobrir a
+                língua deste texto.</p>
+            <button class="btn-proximo" data-proximo="1">Húngaro</button>
+            <button class="btn-proximo" data-proximo="2">Latim</button>
+            <button class="btn-proximo" data-proximo="1">Grego</button>
+            <button class="btn-proximo" data-proximo="1">Romeno</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Desculpa, mas você errou o idioma.</p>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nossa! Muito obrigado por traduzir este idioma corretamente. Neste texto estava escrito: "Há uma cidade
+                que não mora ninguém, apenas entidades, mas lá tem um tesouro que pode dar todas as respostas da
+                humanidade, mas ninguém saiu de lá vivo." E agora, será
+                que vou para esta cidade
+                fantasma?</p>
+            <button class="btn-proximo" data-proximo="3">Sim</button>
+            <button class="btn-proximo" data-proximo="4">Não</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Tá bom então... Let's a go! Uahuu!</p>
+            <button class="btn-proximo" data-proximo="5">Vamos lá!</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Realmente, tem que pensar na minha vida. (Mas você é medroso)</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Eu começei a perguntar para a população local sobre esta cidade, a população local recomendou para eu não
+                ir
+                de jeito nenhum, mas se eu quisesse ir, eles recomendaram um senhor de 90 anos que morava em uma cidade
+                no interior da Itália, pois ele tem um mapa raro sobre a localização desta cidade. Após por algum tempo
+                de procura, eu cheguei na casa dele, o idoso era super carinhoso e receptivo. Eu falei toda história que
+                aconteceu e sobre esta tal cidade, e pedi para ele o mapa, o senhor ficou muito recioso e
+                recomendou para eu não ir. Mas será eu insisto ou não? </p>
+            <button class="btn-proximo" data-proximo="6">Sim</button>
+            <button class="btn-proximo" data-proximo="7">Não</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Consegui convencer ele e me deu o mapa, agora a aventura começa de verdade!</p>
+            <button class="btn-proximo" data-proximo="8">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ah, sério?</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Eu começei a jornada, com lugares incrivéis. Depois de dias, finalmente cheguei na cidade fantasma,
+                ficava na Sicília, na Itália, bem isolado. Pensava que o ambiente seria com nevoa e escuro, mas na
+                verdade é um ambiente bem bonito e agradável. Agora eu preciso achar o tesouro e sair vivo.</p>
+            <button class="btn-proximo" data-proximo="9">Próximo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Depois de procurar o tesouro, encontrei na verdade uma espada divina no meio de uma camâra, cheio de
+                armadilhas. Depois de um tempo, a noite chegou, e o bicho pegou, surgiram um monte de entidades, mas
+                lembrei da espada e começei a lutar. Descobri que os monstros não paravam de surgir, e percebi que era
+                tipo um daqueles jogos de ondas de monstros. Depois de muito tempo lutando, exausto, consegui vencer os
+                monstros. Do nada começou a cair um baú do céu, e chegou ao chão, e aí, será que eu abro ou não? </p>
+            <button class="btn-proximo" data-proximo="10">Sim</button>
+            <button class="btn-proximo" data-proximo="10">Com certeza</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Abri o báu, e dentro do báu, NÃO TINHA MERD* NENHUMA, dai eu cometi suicídio na hora. Agora entendo
+                porque ninguém saiu vivo desta cidade. Agora estou no céu, e as vezes visito o mundo como um fantasma
+                rodando por aí.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
